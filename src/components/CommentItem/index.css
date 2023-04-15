@@ -1,0 +1,124 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.item-container {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.comment-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.first-name {
+  margin-right: 10px;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+  text-align: center;
+}
+.name {
+  color: #334155;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+.time {
+  color: #94a3b8;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.description {
+  margin-top: 0px;
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  padding-left: 30px;
+  width: 80%;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.like-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.like-img {
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.like {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #7e858e;
+}
+
+.delete-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.delete-img {
+  height: 22px;
+  width: 22px;
+}
+
+.like-class {
+  color: #0ea5e9;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
